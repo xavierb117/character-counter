@@ -20,7 +20,6 @@ public class CharacterFrequencyCounter {
      */
     public CharacterFrequencyCounter(String input) {
         frequencyMap = new HashMap<>();
-        totalCharacterCount = 0;
         processString(input);
     }
 
